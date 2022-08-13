@@ -7,12 +7,15 @@ body {
 }
 
 /*Barre des taches*/
+.bdt {
+    background-color: #d3d3d5;
+}
 .bdt li {
     display: inline;
     float: right;
 }
 .bdt ul {
-    background-color: #d3d3d5;
+    background-color: #a9a9aa;
     list-style-type: none;
     margin: 0;
     padding: 0;
