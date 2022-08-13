@@ -4,11 +4,40 @@ body {
     padding: 0;
     margin: 0;
     font-family: 'Prompt', Arial, sans-serif;
-    overflow: hidden;
+    overflow:visible;
     justify-self: center;
     align-items: center;
 }
+.svg {
+    fill: #e5e2e2;
+}
+.svg1 {
+    fill: #d3d3d5
+}
 
+/*Bouton jouer*/
+.g {
+    align-items: center;
+    text-align: center;
+    font-family: Arial;
+    font-size: 2em;
+    background-color: #d3d3d5;
+}
+.g a {
+    display: block;
+    text-decoration: none;
+    color: #362836;
+}
+.g:hover {
+    color: #362836;
+    font-size: 2.5em;
+    cursor: pointer;
+}
+.g:active {
+    color: #362836;
+    font-size: 2.5em;
+    cursor: pointer;  
+}
 /*Barre des taches*/
 .bdt {
     background-color: #d3d3d5;
