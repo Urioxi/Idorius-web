@@ -1,9 +1,12 @@
 body {
     background-color: #e5e2e2;
     color: #333;
+    padding: 0;
     margin: 0;
     font-family: 'Prompt', Arial, sans-serif;
     overflow: hidden;
+    justify-self: center;
+    align-items: center;
 }
 
 /*Barre des taches*/
@@ -31,3 +34,46 @@ body {
 .bdt a:hover {
     color: #b719b8;
 }
+
+/*Slider*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.slider{
+    height: 50vh;
+    position: relative;
+}
+.slider img {
+    position: absolute;
+    object-fit: cover;
+    align-items: center;
+    height: auto;
+    width: auto;
+    border: 5px solid#333;
+    left: 39.8rem;
+    opacity: 0;
+    transition: opacity 1s;
+}
+.slider img.active {
+    opacity: 1;
+}
+
+.suivant, .precedent{
+    color: #fff;
+    font-size: 3rem;
+    position: absolute;
+    top: 20%;
+    transform: translateY(-20%);
+    cursor: pointer;
+}
+
+.suivant {
+   right: 40rem; 
+}
+
+.precedent {
+    left: 40rem;
+}
+
