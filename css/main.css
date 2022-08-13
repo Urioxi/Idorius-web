@@ -1,0 +1,30 @@
+body {
+    background-color: #e5e2e2;
+    color: #333;
+    margin: 0;
+    font-family: 'Prompt', Arial, sans-serif;
+    overflow: hidden;
+}
+
+/*Barre des taches*/
+.bdt li {
+    display: inline;
+    float: right;
+}
+.bdt ul {
+    background-color: #d3d3d0;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow:hidden;
+}
+.bdt a {
+    display: block;
+    color: #333;
+    padding: 8px;
+    text-align: center;
+    text-decoration: none;
+}
+.bdt a:hover {
+    color: #b719b8;
+}
