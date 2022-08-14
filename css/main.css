@@ -29,7 +29,7 @@ body {
     color: #362836;
 }
 .g:hover {
-    color: #362836;
+    color: #9711fb;
     font-size: 2.5em;
     cursor: pointer;
 }
@@ -37,6 +37,38 @@ body {
     color: #362836;
     font-size: 2.5em;
     cursor: pointer;  
+}
+/*Shop*/
+.shop {
+    left: 3rem;
+}
+.barre {
+    position: relative;
+    height: 300px;
+    width: 1270px;
+    top: 40px;
+}
+.shadowgr {
+    border: 0.5rem solid #9711fb;
+    height: 780px;
+    width: 400px;
+    background-color: #d3d3d5;
+    margin-left: 45rem;
+}
+.shadow {
+    width: 384px;
+}
+.shadowgr a {
+    text-decoration: none;
+    color: #333;
+    font-family: 'Prompt', Arial;
+    font-size: 2em;
+    text-align: center;
+    left: 2rem;
+}
+.shadowtxt {
+    background-color: #9711fb;
+    color: #d3d3d5;
 }
 /*Barre des taches*/
 .bdt {
@@ -61,7 +93,7 @@ body {
     text-decoration: none;
 }
 .bdt a:hover {
-    color: #b719b8;
+    color: #9711fb;
 }
 
 /*Slider*/
