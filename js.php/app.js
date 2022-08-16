@@ -40,3 +40,5 @@ setInterval(function() {
     enleverActiveImages();
     img_slider[etape].classList.add('active');
 }, 5000)
+
+//dark mode
