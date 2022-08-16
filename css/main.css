@@ -50,10 +50,10 @@ body {
 }
 .shadowgr {
     border: 0.5rem solid #9711fb;
-    height: 780px;
+    height: 818px;
     width: 400px;
     background-color: #d3d3d5;
-    margin-left: 45rem;
+    margin-left: 68rem;
 }
 .shadow {
     width: 384px;
@@ -67,6 +67,30 @@ body {
     left: 2rem;
 }
 .shadowtxt {
+    background-color: #9711fb;
+    color: #d3d3d5;
+}
+
+.shopgr {
+    border: 0.5rem solid #9711fb;
+    height: 320px;
+    width: 400px;
+    background-color: #d3d3d5;
+    margin-left: 25rem;
+    margin-top: -35rem;
+}
+.shopimg {
+    width: 384px;
+}
+.shopgr a {
+    text-decoration: none;
+    color: #333;
+    font-family: 'Prompt', Arial;
+    font-size: 2em;
+    text-align: center;
+    left: 2rem;
+}
+.shoptxt {
     background-color: #9711fb;
     color: #d3d3d5;
 }
