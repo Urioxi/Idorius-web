@@ -14,7 +14,13 @@ body {
 .svg1 {
     fill: #d3d3d5
 }
-
+.svg2 {
+    fill: #e5e2e2
+}
+.end {
+    background-color: #a9a9aa;
+    margin-top: 0px;
+}
 /*Bouton jouer*/
 .g {
     align-items: center;
@@ -50,7 +56,7 @@ body {
 }
 .shadowgr {
     border: 0.5rem solid #9711fb;
-    height: 818px;
+    height: 811px;
     width: 400px;
     background-color: #d3d3d5;
     margin-left: 68rem;
@@ -73,7 +79,7 @@ body {
 
 .shopgr {
     border: 0.5rem solid #9711fb;
-    height: 320px;
+    height: 316px;
     width: 400px;
     background-color: #d3d3d5;
     margin-left: 25rem;
