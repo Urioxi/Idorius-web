@@ -28,6 +28,7 @@ body {
 .cvge {
     margin-left: 5rem;
 }
+
 /* svg */
 .svg {
     fill: #e5e2e2;
@@ -46,12 +47,33 @@ body {
     margin-top: 250px;
     z-index: 1;
 }
+.endb {
+    background-color: #a9a9aa;
+    margin-top: 50px;
+    z-index: 1;
+}
 .end1 {
-    width: 420px;
+width: 420px;
 position: relative;
 z-index: 2;
-margin-top: -180px;
+margin-top: -200px;
 margin-left: 5rem;
+line-height: 1.5rem;
+}
+
+.end2 {
+width: 420px;
+position: relative;
+z-index: 2;
+margin-top: -105px;
+margin-left: 35rem;
+line-height: 1.5rem;
+}
+.end2 a {
+    display: block;
+    text-decoration: none;
+    color: #333;
+    margin-left: 1.5rem;
 }
 /*Bouton jouer*/
 .g {
