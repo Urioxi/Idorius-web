@@ -1,3 +1,4 @@
+/* vrac */
 body {
     background-color: #e5e2e2;
     color: #333;
@@ -8,18 +9,46 @@ body {
     justify-self: center;
     align-items: center;
 }
+/*cgv*/
+.d h1 {
+    font-size: 2em;
+}
+.d {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+.d h3{
+    line-height: 3rem;
+    color: #423842;
+    opacity: 0.80;
+}
+.cgvu {
+    margin-left: 5rem;
+}
+/* svg */
 .svg {
     fill: #e5e2e2;
 }
 .svg1 {
-    fill: #d3d3d5
+    fill: #d3d3d5;
 }
 .svg2 {
-    fill: #e5e2e2
+    fill: #e5e2e2;
+    z-index: 1;
 }
+
+/* End */
 .end {
     background-color: #a9a9aa;
-    margin-top: 0px;
+    margin-top: 250px;
+    z-index: 1;
+}
+.end1 {
+    width: 420px;
+position: relative;
+z-index: 2;
+margin-top: -180px;
+margin-left: 5rem;
 }
 /*Bouton jouer*/
 .g {
@@ -28,6 +57,7 @@ body {
     font-family: Arial;
     font-size: 2em;
     background-color: #d3d3d5;
+    transition: transform .1s;
 }
 .g a {
     display: block;
@@ -35,8 +65,7 @@ body {
     color: #362836;
 }
 .g:hover {
-    color: #9711fb;
-    font-size: 2.5em;
+    transform: scale(1.23);
     cursor: pointer;
 }
 .g:active {
@@ -44,6 +73,7 @@ body {
     font-size: 2.5em;
     cursor: pointer;  
 }
+
 /*Shop*/
 .shop {
     left: 3rem;
@@ -60,6 +90,10 @@ body {
     width: 400px;
     background-color: #d3d3d5;
     margin-left: 68rem;
+    transition: transform .1s;
+}
+.shadowgr:hover {
+    transform: scale(1.05);
 }
 .shadow {
     width: 384px;
@@ -84,6 +118,10 @@ body {
     background-color: #d3d3d5;
     margin-left: 25rem;
     margin-top: -35rem;
+    transition: transform .1s;
+}
+.shopgr:hover {
+    transform: scale(1.05);
 }
 .shopimg {
     width: 384px;
@@ -100,6 +138,7 @@ body {
     background-color: #9711fb;
     color: #d3d3d5;
 }
+
 /*Barre des taches*/
 .bdt {
     background-color: #d3d3d5;
@@ -118,7 +157,7 @@ body {
 .bdt a {
     display: block;
     color: #333;
-    padding: 8px;
+    padding: 20px;
     text-align: center;
     text-decoration: none;
 }
