@@ -16,6 +16,10 @@ body {
 }
 
 /*cgv*/
+.e a {
+    text-decoration: none;
+    color: #9711fb;
+}
 .d h1 {
     font-size: 2em;
 }
