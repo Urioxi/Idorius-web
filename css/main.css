@@ -9,6 +9,12 @@ body {
     justify-self: center;
     align-items: center;
 }
+
+/*How To Play*/
+.idorius img {
+    align-items: center;
+}
+
 /*cgv*/
 .d h1 {
     font-size: 2em;
@@ -16,6 +22,10 @@ body {
 .d {
     margin-left: 2rem;
     margin-right: 2rem;
+}
+.d a {
+    text-decoration: none;
+    color: #9711fb;
 }
 .d h3{
     line-height: 3rem;
@@ -31,9 +41,11 @@ body {
 
 /* svg */
 .svg {
+    z-index: 1;
     fill: #e5e2e2;
 }
 .svg1 {
+    z-index: 1;
     fill: #d3d3d5;
 }
 .svg2 {
@@ -83,6 +95,7 @@ line-height: 1.5rem;
     font-size: 2em;
     background-color: #d3d3d5;
     transition: transform .1s;
+    z-index: 2;
 }
 .g a {
     display: block;
@@ -95,7 +108,7 @@ line-height: 1.5rem;
 }
 .g:active {
     color: #362836;
-    font-size: 2.5em;
+    transform: scale(1.23);
     cursor: pointer;  
 }
 
