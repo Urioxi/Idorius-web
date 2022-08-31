@@ -11,10 +11,22 @@ body {
 }
 
 /*How To Play*/
-.idorius img {
-    align-items: center;
-}
 
+.tutop {
+    text-align: center
+}
+.tutop a {
+    text-decoration: none;
+    color: #9711fb;
+}
+.z h3 {
+line-height: 3rem;
+color: #423842;
+opacity: 0.80;
+}
+.z {
+    text-align: center;
+}
 /*cgv*/
 .e a {
     text-decoration: none;
@@ -68,6 +80,11 @@ body {
     margin-top: 50px;
     z-index: 1;
 }
+.enda {
+    background-color: #a9a9aa;
+    margin-top: 200px;
+    z-index: 1;
+}
 .end1 {
 width: 420px;
 position: relative;
@@ -82,7 +99,7 @@ width: 420px;
 position: relative;
 z-index: 2;
 margin-top: -105px;
-margin-left: 35rem;
+margin-left: 37.5rem;
 line-height: 1.5rem;
 }
 .end2 a {
@@ -91,6 +108,36 @@ line-height: 1.5rem;
     color: #333;
     margin-left: 1.5rem;
 }
+.end3 a {
+    display: block;
+    text-decoration: none;
+    color: #333;
+    margin-left: 1rem;
+}
+.end4 a {
+    display: block;
+    text-decoration: none;
+    color: #333;
+    margin-left: 1rem;
+}
+
+.end3 {
+width: 420px;
+position: relative;
+z-index: 2;
+margin-top: -45px;
+margin-left: 60rem;
+line-height: 1.5rem;  
+}
+.end4 {
+    width: 100px;
+    position: relative;
+    z-index: 2;
+    margin-top: -45px;
+    margin-left: 22.5rem;
+    line-height: 1.5rem;
+}
+
 /*Bouton jouer*/
 .g {
     align-items: center;
