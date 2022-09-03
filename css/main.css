@@ -10,9 +10,12 @@ body {
     align-items: center;
 }
 
+/* formulaire */
+.container {
+    position: relative;
+  }
 /*How To Play*/
 /* Bouton liquid de mort */
-
 .f
 {
   display: block;
