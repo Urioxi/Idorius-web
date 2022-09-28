@@ -455,8 +455,7 @@ left: 35%;
     border: 5px solid#333;
     opacity: 0;
     transition: opacity 1s;
-    left: 35%;
-    right: 35%;
+
 }
 .slider img.active {
     opacity: 1;
